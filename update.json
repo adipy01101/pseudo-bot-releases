@@ -1,11 +1,11 @@
 {
-  "version": "0.0.0",
-  "notes": "Baseline manifest. First real release coming soon.",
-  "pub_date": "2026-05-18T00:00:00.000Z",
+  "version": "2.0.0",
+  "notes": "Initial beta release.",
+  "pub_date": "2026-05-18T19:00:00.000Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "placeholder",
-      "url": "https://github.com/adipy01101/pseudo-bot-releases/releases/download/v0.0.0/placeholder.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOFhhUkc3UWlVMEJLSWZlM3YxZzJZZUxQck1lQ3Y2Wjhxb250RmdOL0xQZ0k1YlZiRERJTjVOTjhDREZwQm5qS3I2MmVoaU9XREMvWGliaERBekdpRmhSeElIa1RPQXdvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc5MTMwNzM3CWZpbGU6RGVza3RvcCBIdWJfMi4wLjBfeDY0LXNldHVwLmV4ZQpKaGhFZ3E2aEgwOFBmVGlhWVNyMUpQeTFlNTc5MnRYSEpQUEJkQXhuMitta29IVDdHS3V1QWxoMFNYU0M4MXFTU0ZXYXJPekYrMm9TUmtGcHVsOTRBZz09Cg==",
+      "url": "https://github.com/adipy01101/pseudo-bot-releases/releases/download/v2.0.0/Desktop.Hub_2.0.0_x64-setup.exe"
     }
   }
 }
