@@ -1,11 +1,11 @@
 {
-  "version": "2.0.2",
-  "notes": "Authenticated-proxy support for Entertainment Earth, AYCD profile import/export, proxy rotator profile-switch fix, security hardening (HWID, heartbeat, dev-backdoor strip).",
-  "pub_date": "2026-05-20T03:50:00.000Z",
+  "version": "2.1.0",
+  "notes": "Edit All for bulk task changes, right-click Clone, a new smart Keywords/Link/SKU input box, a cleaner high-density task layout, sharper input styling, and a keyword-exclusion fix. Removed the non-functional Headless toggle.",
+  "pub_date": "2026-05-22T00:58:26.295Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOFhhUkc3UWlVMEJEbEsvc21tTk5aQmZXKzBFZ2tPaGdJeVpwSG42MmRhYStMbEUxWTJMUHpwMDF4S3RFVGpLWDhLWHV4RTcwZEwzOFB3WkJoRlBxaGg4eGhXT0gydndnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc5MjQ4NTY1CWZpbGU6RGVza3RvcCBIdWJfMi4wLjJfeDY0LXNldHVwLmV4ZQpua0ZEczVUQ0tHTnd0MnhIVUd3aHlIUnl6SzZXbEpTQjh4NWNkNi9SeVNUZHZBaU5nUExsZTZkMGpjb0VYdVByb1JxS0R0clh1NlN5MlNMM3dEeVlDQT09Cg==",
-      "url": "https://github.com/adipy01101/pseudo-bot-releases/releases/download/v2.0.2/Desktop.Hub_2.0.2_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOFhhUkc3UWlVMEZrNmQ0MytUNUxWNUxRQy9oVHhITExTcVJ5bTlLenlvOXdKUW5oNDEzbDk1UGo4Y2pqNGh4d0FZb3AxTlJuUnBvd3NIeHo4enVDYm53empHcG9xTmdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc5NDExMjI3CWZpbGU6RGVza3RvcCBIdWJfMi4xLjBfeDY0LXNldHVwLmV4ZQoyd21jYVN6VE05dERXd1JCMHQ3VHMxZHNZNU1MWW5LMnFEanR3c0pLdFZ0OWkzSGI2MzI5YXJHSGl2S1l4aXlwS2ZYVWFSWlRUKzAvQ3UyNzJ0cm1Ddz09Cg==",
+      "url": "https://github.com/adipy01101/pseudo-bot-releases/releases/download/v2.1.0/Desktop.Hub_2.1.0_x64-setup.exe"
     }
   }
 }
