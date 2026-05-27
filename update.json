@@ -1,11 +1,11 @@
 {
-  "version": "2.1.0",
-  "notes": "Edit All for bulk task changes, right-click Clone, a new smart Keywords/Link/SKU input box, a cleaner high-density task layout, sharper input styling, and a keyword-exclusion fix. Removed the non-functional Headless toggle.",
-  "pub_date": "2026-05-22T00:58:26.295Z",
+  "version": "2.2.0",
+  "notes": "ATC qty fallback (set qty=3, server decides what you actually get; webhook reports the real number). Browser-resident EE guest checkout flow added (still blocked at EE server-side detection — use auth for live drops). Partial-SKU keyword match. Tasks tab no longer overflows on wide log lines. Dynamic version label in the header. Task qty input cap raised 10 → 13.",
+  "pub_date": "2026-05-27T08:09:39.000Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOFhhUkc3UWlVMEZrNmQ0MytUNUxWNUxRQy9oVHhITExTcVJ5bTlLenlvOXdKUW5oNDEzbDk1UGo4Y2pqNGh4d0FZb3AxTlJuUnBvd3NIeHo4enVDYm53empHcG9xTmdnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc5NDExMjI3CWZpbGU6RGVza3RvcCBIdWJfMi4xLjBfeDY0LXNldHVwLmV4ZQoyd21jYVN6VE05dERXd1JCMHQ3VHMxZHNZNU1MWW5LMnFEanR3c0pLdFZ0OWkzSGI2MzI5YXJHSGl2S1l4aXlwS2ZYVWFSWlRUKzAvQ3UyNzJ0cm1Ddz09Cg==",
-      "url": "https://github.com/adipy01101/pseudo-bot-releases/releases/download/v2.1.0/Desktop.Hub_2.1.0_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOFhhUkc3UWlVMEF6RE9LVS9ldlZNZjZSMUJEcGx2K0xKV2MxY0VSYkNtOTd4Y2hrQjdmZGpkblpyS2lqWndHTEhMaDZoMEtqWWs5Y2s0SEZRemNiYW95dHcvd1gxQmdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc5ODY5Mjg3CWZpbGU6RGVza3RvcCBIdWJfMi4yLjBfeDY0LXNldHVwLmV4ZQp6SUE1eVBnVU01eXl6OGFha3FlcmtwdWpLSVdlWm05UFZYUWJkTmVCbzM0UmtmUHlydnBwMm1tNEluZ3JaaDVrcFJQUUhMamxBT0lFOUhGc0x3bzFBUT09Cg==",
+      "url": "https://github.com/adipy01101/pseudo-bot-releases/releases/download/v2.2.0/Desktop.Hub_2.2.0_x64-setup.exe"
     }
   }
 }
