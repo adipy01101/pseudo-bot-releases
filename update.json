@@ -1,11 +1,11 @@
 {
-  "version": "2.2.1",
-  "notes": "EE checkout: now distinguishes inventory race (cart emptied between ATC and checkout, EE released the item back to stock) from genuinely missing saved address — the misleading 'No saved address' error is retired. Race now surfaces as 'Cart emptied before checkout (inventory race) — restart task to re-attempt ATC.' Single-instance guard: double-clicking the launcher while Pseudo Bot is already running focuses the existing window instead of cascading new ones.",
-  "pub_date": "2026-05-27T20:14:02.092Z",
+  "version": "2.2.2",
+  "notes": "Five EE drop-day fixes folded into one release. Cloudflare Waiting Room support — the bot now sits through EE's drop-time queue page instead of bailing on it. Keyword-mode preorder fix — Include Existing OFF tasks no longer miss preorder-launched products like Funko drops. Connection-timeout retry — single proxy hiccup mid-checkout no longer kills the task. Auto-retry on cart-empty — bot re-ATCs up to 5 times when inventory race clears the cart between ATC and checkout, no more spam-restarting tasks. Ghost-cart parser fix — every EE rejection was previously misread as 'success' because 'Not Added To Cart' contains 'Added To Cart' as a substring. Parser now reads EE's wrapped-XML response correctly.",
+  "pub_date": "2026-05-28T02:45:27.097Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOFhhUkc3UWlVME5QaUMzck5oSFBPVytZZmxTaUxuWS9FVXRlZ0NFcmc1bnI5UDZDSjF2T1ZkcnQwbWNkYkp3M0lQOUlzRGpRZllyekxOaHFmc1NVRkFyMk9WL3pYRndvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc5OTEyNzUwCWZpbGU6RGVza3RvcCBIdWJfMi4yLjFfeDY0LXNldHVwLmV4ZQpBb0RidnYwQ1VWMFZXYUFOcmswR2lxeWNCNlo1KzlxdjQzZ0h4NjRXdk1nK3ZRQThZMGZUOEUxam8rWUlRaFd4K3FxMFM2L0k1RUhYcTFZNkdHMDhBdz09Cg==",
-      "url": "https://github.com/adipy01101/pseudo-bot-releases/releases/download/v2.2.1/Desktop.Hub_2.2.1_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOFhhUkc3UWlVME1kTHJkbk1SQkJkSVhsa1JtbnpzNml6TXFucWNEMFVZNHdCdksrWVNjVlFVU3pmcWZabzdOVnh2YWkxSEpQM0JMdEdkUDJrbUpDZ09JeTNCaHpVNEFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc5OTM2MjcyCWZpbGU6RGVza3RvcCBIdWJfMi4yLjJfeDY0LXNldHVwLmV4ZQovU3FRWUg2c3N2S1Y3ZGdRTTE3MHhrUlJGR2Uxa1p4a2txWU1qM3ExM2VJWnZnUjNuSDJ4T2xLSWdTYkJaUUcxTmRlNmtwUHJmNVA1N1NFeTQ1L2lEZz09Cg==",
+      "url": "https://github.com/adipy01101/pseudo-bot-releases/releases/download/v2.2.2/Desktop.Hub_2.2.2_x64-setup.exe"
     }
   }
 }
