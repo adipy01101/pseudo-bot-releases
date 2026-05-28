@@ -1,11 +1,11 @@
 {
-  "version": "2.2.2",
-  "notes": "Five EE drop-day fixes folded into one release. Cloudflare Waiting Room support — the bot now sits through EE's drop-time queue page instead of bailing on it. Keyword-mode preorder fix — Include Existing OFF tasks no longer miss preorder-launched products like Funko drops. Connection-timeout retry — single proxy hiccup mid-checkout no longer kills the task. Auto-retry on cart-empty — bot re-ATCs up to 5 times when inventory race clears the cart between ATC and checkout, no more spam-restarting tasks. Ghost-cart parser fix — every EE rejection was previously misread as 'success' because 'Not Added To Cart' contains 'Added To Cart' as a substring. Parser now reads EE's wrapped-XML response correctly.",
-  "pub_date": "2026-05-28T02:45:27.097Z",
+  "version": "2.2.3",
+  "notes": "Hotfix — cmd.exe window cascade on Start Tasks. The 'multiplying Pseudo Bot windows' some users reported were actually cmd.exe windows spawned by the bot's orphan-Chrome cleanup helpers without the CREATE_NO_WINDOW flag. wmic's slow startup kept them visible long enough to look like a cascade. Cosmetic-only fix — no checkout/monitor behavior change.",
+  "pub_date": "2026-05-28T22:40:45.704Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOFhhUkc3UWlVME1kTHJkbk1SQkJkSVhsa1JtbnpzNml6TXFucWNEMFVZNHdCdksrWVNjVlFVU3pmcWZabzdOVnh2YWkxSEpQM0JMdEdkUDJrbUpDZ09JeTNCaHpVNEFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzc5OTM2MjcyCWZpbGU6RGVza3RvcCBIdWJfMi4yLjJfeDY0LXNldHVwLmV4ZQovU3FRWUg2c3N2S1Y3ZGdRTTE3MHhrUlJGR2Uxa1p4a2txWU1qM3ExM2VJWnZnUjNuSDJ4T2xLSWdTYkJaUUcxTmRlNmtwUHJmNVA1N1NFeTQ1L2lEZz09Cg==",
-      "url": "https://github.com/adipy01101/pseudo-bot-releases/releases/download/v2.2.2/Desktop.Hub_2.2.2_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOFhhUkc3UWlVMEplUEdCaVpCc3JNMUtibWs2VVY4SGpNYXBPYmlhd0o3TkZvNWFERzQwWiswenVNa0k4SCtqM1JaZjVzYUFtejgyY3E2dWZ4d3QxdDAxT2VzZlhVa3c0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgwMDA3OTk5CWZpbGU6RGVza3RvcCBIdWJfMi4yLjNfeDY0LXNldHVwLmV4ZQpUNGF0WVZaV0p2RDFXck1yYWNuRUV2TUsweW5UMThKVVlnaXJsSlRrU3FtUzF1ZDV2ay8vVFRTeHNiSll0cEVNV0FIOTRpRFBrZnF5WFBPZzJlRTREUT09Cg==",
+      "url": "https://github.com/adipy01101/pseudo-bot-releases/releases/download/v2.2.3/Desktop.Hub_2.2.3_x64-setup.exe"
     }
   }
 }
