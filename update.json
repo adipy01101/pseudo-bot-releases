@@ -1,11 +1,11 @@
 {
-  "version": "2.2.3",
-  "notes": "Hotfix — cmd.exe window cascade on Start Tasks. The 'multiplying Pseudo Bot windows' some users reported were actually cmd.exe windows spawned by the bot's orphan-Chrome cleanup helpers without the CREATE_NO_WINDOW flag. wmic's slow startup kept them visible long enough to look like a cascade. Cosmetic-only fix — no checkout/monitor behavior change.",
-  "pub_date": "2026-05-28T22:40:45.704Z",
+  "version": "2.3.0",
+  "notes": "Big Cartel adapter shipped — end-to-end monitor + ATC + semi-auto headed Stripe checkout (bot fills card details, you click Pay now). Card-input positions are now discovered dynamically inside the Stripe iframe so the fill stays accurate across store layouts. Chrome launch waits for the persistent profile lock to actually release after reaping stale processes — fixes silent ExitStatus(21) launch failures. Update applies automatically — close and reopen.",
+  "pub_date": "2026-05-31T23:30:00.000Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOFhhUkc3UWlVMEplUEdCaVpCc3JNMUtibWs2VVY4SGpNYXBPYmlhd0o3TkZvNWFERzQwWiswenVNa0k4SCtqM1JaZjVzYUFtejgyY3E2dWZ4d3QxdDAxT2VzZlhVa3c0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgwMDA3OTk5CWZpbGU6RGVza3RvcCBIdWJfMi4yLjNfeDY0LXNldHVwLmV4ZQpUNGF0WVZaV0p2RDFXck1yYWNuRUV2TUsweW5UMThKVVlnaXJsSlRrU3FtUzF1ZDV2ay8vVFRTeHNiSll0cEVNV0FIOTRpRFBrZnF5WFBPZzJlRTREUT09Cg==",
-      "url": "https://github.com/adipy01101/pseudo-bot-releases/releases/download/v2.2.3/Desktop.Hub_2.2.3_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOFhhUkc3UWlVMEtubmxCNzY4OW9rcGV5aHR1NkJFc1J3a2hqa3gvUnBjbFBtYjZFcmtjYjhHWDQ1MUtic3hsQzliK1NxQ1ExNzduY0FyWWF6ekplR29mQWs1RFFuWFFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgwMjg0NDYxCWZpbGU6RGVza3RvcCBIdWJfMi4zLjBfeDY0LXNldHVwLmV4ZQoxaEI5U2p2aU9xNDZhOXY4TUhmTUtuTUtCK2Z1TDdveWJieFRxY1JyU3F5VWxMUzU3MWQ2ak1hY1hHTncvTmlOb0U2M3ZQR2NWR1QwdGkwWVdsUktBdz09Cg==",
+      "url": "https://github.com/adipy01101/pseudo-bot-releases/releases/download/v2.3.0/Desktop.Hub_2.3.0_x64-setup.exe"
     }
   }
 }
