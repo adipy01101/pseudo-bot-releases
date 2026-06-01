@@ -1,11 +1,11 @@
 {
-  "version": "2.3.0",
-  "notes": "Big Cartel adapter shipped — end-to-end monitor + ATC + semi-auto headed Stripe checkout (bot fills card details, you click Pay now). Card-input positions are now discovered dynamically inside the Stripe iframe so the fill stays accurate across store layouts. Chrome launch waits for the persistent profile lock to actually release after reaping stale processes — fixes silent ExitStatus(21) launch failures. Update applies automatically — close and reopen.",
-  "pub_date": "2026-05-31T23:30:00.000Z",
+  "version": "2.3.1",
+  "notes": "Disk-leak fix — %TEMP%/pseudo-cf-* ephemeral Chrome profile dirs from EE / Big Cartel / Shopify tasks were never being cleaned up. Bot now auto-sweeps stale ones at boot and every hour. If you've been running tasks for a while you may free several GB of disk space the first time this build runs. Update applies automatically — close and reopen.",
+  "pub_date": "2026-06-01T19:54:26.000Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOFhhUkc3UWlVMEtubmxCNzY4OW9rcGV5aHR1NkJFc1J3a2hqa3gvUnBjbFBtYjZFcmtjYjhHWDQ1MUtic3hsQzliK1NxQ1ExNzduY0FyWWF6ekplR29mQWs1RFFuWFFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgwMjg0NDYxCWZpbGU6RGVza3RvcCBIdWJfMi4zLjBfeDY0LXNldHVwLmV4ZQoxaEI5U2p2aU9xNDZhOXY4TUhmTUtuTUtCK2Z1TDdveWJieFRxY1JyU3F5VWxMUzU3MWQ2ak1hY1hHTncvTmlOb0U2M3ZQR2NWR1QwdGkwWVdsUktBdz09Cg==",
-      "url": "https://github.com/adipy01101/pseudo-bot-releases/releases/download/v2.3.0/Desktop.Hub_2.3.0_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOFhhUkc3UWlVMEFEY3JTeFhaa2R1Q2twcHdBaldIZE5WSmxGZmdrOVNvZEFDOFlHWkJUdnlrRnFlTE4rK0hlbDh3QUwxcHlEK0NLRmVZNUxXeko5MVkxckdvaVFJbFFvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgwMzQzNTk0CWZpbGU6RGVza3RvcCBIdWJfMi4zLjFfeDY0LXNldHVwLmV4ZQovdXhOdzR4ekEzRTZFdzllVC9kbkFlVUFyZ2xIMW1udURteEZ4TDNpWmdEQm1yQzlCeXhEekNndElwWUV5alB5d0V0cjF2TXBPOTZDSUQ3Z1RoZUREUT09Cg==",
+      "url": "https://github.com/adipy01101/pseudo-bot-releases/releases/download/v2.3.1/Desktop.Hub_2.3.1_x64-setup.exe"
     }
   }
 }
