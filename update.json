@@ -1,11 +1,11 @@
 {
-  "version": "2.3.2",
-  "notes": "EE: bot now auto-rotates to a fresh proxy IP when Entertainment Earth rate-limits you (HTTP 429) instead of giving up. Works best with 5+ proxies in the task's proxy profile — single-proxy profiles get a one-line hint. Plus a silent startup-stability fix. Update applies automatically — close and reopen.",
-  "pub_date": "2026-06-05T19:02:25.000Z",
+  "version": "2.3.3",
+  "notes": "Entertainment Earth checkout is fixed. EE rebuilt their checkout, which broke auto-checkout (pre-order drops were not detected and orders stalled at payment). The bot now catches pre-order drops, completes payment, and places orders correctly. Update applies automatically - close and reopen.",
+  "pub_date": "2026-06-17T20:28:38.000Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOFhhUkc3UWlVME13eVNSL21VZjJZZEovc0I5bGkreGJ2b2EybU5EeW9YalFkQmxORjBnSW9OVisrbUV3WFFKT2V1aHh4eGt2MGJjdjVPek5ISFk4Qk5qTW9TUTV4U2c4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgwNjg2MDMxCWZpbGU6RGVza3RvcCBIdWJfMi4zLjJfeDY0LXNldHVwLmV4ZQpBWXRkNUJTeFFwLzA3TmRrSC9IYUFFQjJsWENZNjhmZWxxeWdQRVJTVW1uWFdEcExIQ0lzTVgrTDU2NVJzcDg4d3pGUnlLUFZmUnJDUEdnY1Qrd3hDQT09Cg==",
-      "url": "https://github.com/adipy01101/pseudo-bot-releases/releases/download/v2.3.2/Desktop.Hub_2.3.2_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOFhhUkc3UWlVME1jNGR5aEU4RythWWN5eEVDbmdIb0JRM1NYR3Z5Qlg1eEZxOGJneC9xeDBwQXdGTUREUVRiRHVSdjZSTC9UeW92QVZxeTNFL1BPTUU2Y2JKOFV3YndFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgxNzI3OTYyCWZpbGU6RGVza3RvcCBIdWJfMi4zLjNfeDY0LXNldHVwLmV4ZQoxNXZjU3RLZkRwTWJlOWN5MmQzdi8rd1U2TkRkbktKM3NvbW9zbHZuanBhTHM4Qlhtb2FsK09DMFRXSDNSNEVYTE1HUUNweEV2VnpraUs0a1pta0JDUT09Cg==",
+      "url": "https://github.com/adipy01101/pseudo-bot-releases/releases/download/v2.3.3/Desktop.Hub_2.3.3_x64-setup.exe"
     }
   }
 }
