@@ -1,6 +1,6 @@
 {
   "version": "2.3.3",
-  "notes": "Entertainment Earth checkout is fixed. EE rebuilt their checkout, which broke auto-checkout (pre-order drops were not detected and orders stalled at payment). The bot now catches pre-order drops, completes payment, and places orders correctly. Update applies automatically - close and reopen.",
+  "notes": "",
   "pub_date": "2026-06-17T20:28:38.000Z",
   "platforms": {
     "windows-x86_64": {
