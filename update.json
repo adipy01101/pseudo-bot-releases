@@ -1,11 +1,11 @@
 {
-  "version": "2.4.1",
+  "version": "2.4.2",
   "notes": "",
-  "pub_date": "2026-06-24T23:40:05.561Z",
+  "pub_date": "2026-06-25T01:32:12.100Z",
   "platforms": {
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOFhhUkc3UWlVMEtkZC9Pem1vK0JxdHl2c3VVaWZWRVJOTDZFSEhHY1RDbG1uVFdrSS9TRmJiUkRvS0kzUUZZQ2VWQkUwVThYTTZuRDFxK2NIdjB6dTd5a2ZMY3U5NGdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyMzQ0MzQxCWZpbGU6RGVza3RvcCBIdWJfMi40LjFfeDY0LXNldHVwLmV4ZQpYTTBkS1FsTkRaVDZ0MnplTGc0ZUcvQ00xY3BwM09mcHZOc1BQWXN5TmxBbDJHWXhSc01vNW9CVUdEL1BaNFduVUJHVEFXajBrY1ZSbm1uV2lIeEJDdz09Cg==",
-      "url": "https://github.com/adipy01101/pseudo-bot-releases/releases/download/v2.4.1/Desktop.Hub_2.4.1_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTOFhhUkc3UWlVMERYbEw0bmllRmc4eW5QcUd4MWMzaS9Xcm84RmJuN0xhV2lVSy9jNHhzRlB5SXgxU0FxK01RSExBK1FZVzdueHg3QWZ2SGhaOWFGZXZJdWh2RWk3ZWdRPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzgyMzUxMDg1CWZpbGU6RGVza3RvcCBIdWJfMi40LjJfeDY0LXNldHVwLmV4ZQpqQ2w5aTVRNDFVaXlFbGN6dFh6THM3d3QvN3JzSnJKNXJtQmxjdUZ6UnpHclo4ejZRbzVCVEN1b3pkdzRZQ0RQNWVOeWM0UVJoRlM3VSs3M3BLdlFCdz09Cg==",
+      "url": "https://github.com/adipy01101/pseudo-bot-releases/releases/download/v2.4.2/Desktop.Hub_2.4.2_x64-setup.exe"
     }
   }
 }
